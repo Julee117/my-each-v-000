@@ -3,6 +3,6 @@ def my_each(array)
   while x < array.length
     yield(array[x])
     x += 1
-  end 
+  end
   array
 end
